@@ -21,7 +21,7 @@ setup(name='Houndify',
       author='Soundhound Inc.',
       maintainer='Oliver Yeun',
       url='https://github.com/oyeun/houndify',
-      download_url='',
+      download_url='https://github.com/oyeun/houndify/archive/2.0.tar.gz',
       keywords=['houndify'],
       classifiers=[
           'Programming Language :: Python :: 3'
