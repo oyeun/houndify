@@ -1,2 +1,0 @@
-include pySHSpeex/soundhound-speex/include/speex/*.h
-include pySHSpeex/soundhound-speex/src/*.h

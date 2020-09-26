@@ -1,7 +1,7 @@
 ##############################################################################
 # Copyright 2015 SoundHound, Incorporated.  All rights reserved.
 ##############################################################################
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 SPEEX_SRC_DIR = "pySHSpeex/soundhound-speex"
 SOURCES = "cb_search.c exc_10_32_table.c exc_8_128_table.c filters.c gain_table.c hexc_table.c high_lsp_tables.c " \
@@ -18,7 +18,7 @@ ext_modules = [Extension('pySHSpeex',
 setup(name='Houndify',
       packages=['houndify'],
       ext_modules=ext_modules,
-      version='2.0',
+      version='2.0.1',
       license='MIT',
       description='Houndify libraries and SoundHound speex encoder',
       long_description=open('README.md').read(),
@@ -26,7 +26,7 @@ setup(name='Houndify',
       author='Soundhound Inc.',
       maintainer='Oliver Yeun',
       url='https://github.com/oyeun/houndify',
-      download_url='https://github.com/oyeun/houndify/archive/2.0.tar.gz',
+      download_url='https://github.com/oyeun/houndify/archive/2.0.1.tar.gz',
       keywords=['houndify'],
       classifiers=[
           'Programming Language :: Python :: 3'
